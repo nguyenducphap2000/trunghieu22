@@ -497,6 +497,7 @@ div#sea {
   width: 500px;
   height: 500px;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .wrap {
