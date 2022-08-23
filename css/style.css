@@ -493,16 +493,7 @@ div#sea {
   }
 }
 
-#trunghieu {
-  /* width: 500px;
-  height: 500px;
-  margin: 0 auto;
-  max-width: 100%; */
-}
-
 .wrap {
-  /* align-items: center;
-  width: 100%;
-  height: 100%; */
   display: none;
+  place-content: center;
 }
