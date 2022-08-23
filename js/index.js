@@ -250,6 +250,7 @@ function loop() {
 }
 
 window.onload = function () {
+  document.getElementsByClassName("wrap")[0].style.display = 'none';
   var merrywrap = document.getElementById("merrywrap");
   var box = merrywrap.getElementsByClassName("giftbox")[0];
   var step = 1;
