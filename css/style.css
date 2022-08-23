@@ -38,8 +38,8 @@ div#video {
 }
 
 div#video iframe {
-  width: 255px;
-  height: 155px;
+  width: 500px;
+  height: 500px;
 }
 
 #people {
@@ -484,15 +484,11 @@ div#sea {
   }
 
   div#video iframe {
-    width: 295px;
-    height: 185px;
+    width: 500px;
+    height: 500px;
   }
 
   .moon {
     right: 230px;
   }
-}
-
-.wrap {
-  display: none;
 }

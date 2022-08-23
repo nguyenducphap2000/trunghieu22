@@ -250,7 +250,6 @@ function loop() {
 }
 
 window.onload = function () {
-  document.getElementsByClassName("wrap")[0].style.display = 'none';
   var merrywrap = document.getElementById("merrywrap");
   var box = merrywrap.getElementsByClassName("giftbox")[0];
   var step = 1;
@@ -292,13 +291,12 @@ function reveal() {
   } else {
     w = 255; h = 155;
   }
-  document.getElementsByClassName("wrap")[0].style.display = 'flex';
-  // var ifrm = document.createElement("iframe");
-  // ifrm.setAttribute("src", "https://www.youtube.com/embed/gbICivOO26U?controls=0&loop=1&autoplay=1");
+
+  var ifrm = document.createElement("iframe");
+  ifrm.setAttribute("src", "https://youtube.com/embed/0EuIWK3-4uU?controls=0&loop=1&autoplay=1");
   //ifrm.style.width = `${w}px`;
   //ifrm.style.height = `${h}px`;
-  // ifrm.style.border = 'none';
-  // document.querySelector('#video').appendChild(ifrm);
+  ifrm.style.border = 'none';
+  document.querySelector('#video').appendChild(ifrm);
 }
-
 
